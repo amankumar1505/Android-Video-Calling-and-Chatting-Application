@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ret"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GroupMeetingApp"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/group" />
+
+    <EditText
+        android:id="@+id/emailBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textbox_style"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textbox_style"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/loginbtn_style"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/createBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signupbtn_style"
+        android:text="Create An Account"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
